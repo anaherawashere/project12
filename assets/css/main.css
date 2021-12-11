@@ -1,0 +1,32 @@
+@import url(../css/layout.css);
+@import url(../css/typography.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+@import url(../css/components.css);
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 14px 22px;
+}
+
+footer {
+    background-color: #344e41;
+    bottom: 0;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card {
+    width: 100%;
+    
+}

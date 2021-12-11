@@ -1,0 +1,31 @@
+button {
+    padding: 12px 22px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    font-size: 1rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #718355;
+    color: #DAD7CD;
+}
+
+.btn-primary:hover {
+    background-color: #5F6B4C;
+    color: #DAD7CD;
+    transition: 0.4s;
+}
+
+.btn-secondary {
+    background-color: #DAD7CD;
+    color: #5F6B4C;
+}
+
+.btn-secondary:hover {
+    background-color: #B5C99A;
+    color: #5F6B4C;
+    transition: 0.4s;
+}

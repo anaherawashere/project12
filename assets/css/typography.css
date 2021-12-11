@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #DAD7CD;
+}
+
+h4 {
+    font-size: 1.3rem;
+    color: #DAD7CD;
+    font-weight: 200;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: #DAD7CD;
+}
+
+a.menu-item {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #DAD7CD;
+    transition: 0.4s;
+}
+
+a:hover.menu-item {
+    color: #97a97c;
+    transition: 0.4s;
+}
