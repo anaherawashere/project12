@@ -1,0 +1,31 @@
+.btn {
+    padding: 12px 22px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.btn-primary {
+    background-color: #457b9d;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #31587A;
+    transition: 0.4s;
+}
+
+.btn-secondary {
+    background-color: #CDEAE5;
+    color: #141D29;
+}
+
+.btn-secondary:hover {
+    background-color: #A8DADC;
+    transition: 0.4s;
+}
