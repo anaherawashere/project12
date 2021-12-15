@@ -8,30 +8,100 @@ h1 {
     font-size: 5rem;
     text-transform: capitalize;
     line-height: 1.2;
-    color: #DAD7CD;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 h4 {
     font-size: 1.3rem;
-    color: #DAD7CD;
+    color: #fff;
     font-weight: 200;
 }
 
+h5 {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+}
+
+p {
+    margin-bottom: 6px;
+}
+
+.home-title {
+    max-width: 800px;
+    text-align: center;
+}
 .nav-logo a {
     text-decoration: none;
-    font-size: 2.2rem;
-    color: #DAD7CD;
+    font-size: 1.7rem;
+    color: #E63946;
 }
 
 a.menu-item {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-size: 1.1rem;
-    color: #DAD7CD;
+    color: #457B9D;
     transition: 0.4s;
 }
 
 a:hover.menu-item {
-    color: #97a97c;
+    color: #E63946;
     transition: 0.4s;
+}
+
+a.menu-item::after {
+    content: "//";
+    margin-left: 1rem;
+}
+
+a.menu-social {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: 0.4s;
+}
+
+a:hover.menu-social {
+    color: #E63946;
+    transition: 0.4s;
+}
+
+.footer-social,
+.footer-social a {
+    color: #fff;
+}
+
+a.city-link {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #457B9D;
+    transition: 0.4s;
+}
+
+.row-title h3 {
+    text-align: center;
+}
+
+h3 span {
+    color: #E63946;
 }
