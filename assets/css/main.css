@@ -3,39 +3,71 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
 @import url(../css/components.css);
 
+.bg-grey {
+  background-color: #ededed;
+}
+
+.bg-blue {
+    background: #A8DADC;
+  }
+
+.bg-img {
+    background-image: url(https://picsum.photos/id/1015/1200/800);
+  background-repeat: no-repeat;
+  background-position: 100% 30%;
+  background-size: cover;
+  height: 140px;
+}
 
 footer {
-    background-color: #141D29;
-    bottom: 0;
-    padding-top: 14px;
-    padding-bottom: 14px;
+  background-color: #141d29;
+  bottom: 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .footer-social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card {
-    width: 100%;
-    overflow: hidden; 
+  width: 100%;
+  overflow: hidden;
 }
 
 .img-link {
-    transition: 0.4s;
+  transition: 0.4s;
 }
 
 .img-link:hover {
-    transform: scale(1.04);
-    transition: 0.4s;
+  transform: scale(1.04);
+  transition: 0.4s;
 }
 
 .card-image {
-    border-bottom: #457B9D solid 10px;
-    z-index: 3;
+  border-bottom: #457b9d solid 10px;
+  z-index: 3;
 }
 
 .card-image img {
-    max-height: 100%;
+  max-height: 100%;
+}
+
+.tile-image img {
+    width: 35vw;
+    max-width: 600px;
+}
+
+@media (max-width: 575.98px) {
+    .tile-image {
+        display: none;
+    }
+}
+
+.image-city img {
+    width: 100%;
+    margin-top: -90px;
+    margin-bottom: 16px;
 }

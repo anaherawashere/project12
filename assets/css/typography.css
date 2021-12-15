@@ -1,107 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@300&display=swap");
 
 * {
-    font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
 }
 
 h1 {
-    font-size: 5rem;
-    text-transform: capitalize;
-    line-height: 1.2;
-    color: #fff;
+  font-size: 5rem;
+  text-transform: capitalize;
+  line-height: 1.2;
+  color: #fff;
 }
 
 h2 {
-    font-size: 3rem;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 h4 {
-    font-size: 1.3rem;
-    color: #fff;
-    font-weight: 200;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 200;
 }
 
 h5 {
-    font-size: 1.1rem;
-    text-transform: capitalize;
+  font-size: 1.1rem;
+  text-transform: capitalize;
 }
 
 @media (max-width: 575.98px) {
-    h1 {
-        font-size: 2.5rem;
-    }
+  h1 {
+    font-size: 2.5rem;
+  }
 
-    h4 {
-        font-size: 1rem;
-    }
+  h3 {
+      font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
 }
 
 p {
-    margin-bottom: 6px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  margin-bottom: 6px;
 }
 
-.home-title {
-    max-width: 800px;
-    text-align: center;
-}
 .nav-logo a {
-    text-decoration: none;
-    font-size: 1.7rem;
-    color: #E63946;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #e63946;
 }
 
 a.menu-item {
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: #457B9D;
-    transition: 0.4s;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #457b9d;
+  transition: 0.4s;
 }
 
 a:hover.menu-item {
-    color: #E63946;
-    transition: 0.4s;
+  color: #e63946;
+  transition: 0.4s;
 }
 
 a.menu-item::after {
-    content: "//";
-    margin-left: 1rem;
+  content: "//";
+  margin-left: 1rem;
 }
 
 a.menu-social {
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: #fff;
-    transition: 0.4s;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: 0.4s;
 }
 
 a:hover.menu-social {
-    color: #E63946;
-    transition: 0.4s;
+  color: #e63946;
+  transition: 0.4s;
 }
 
 .footer-social,
 .footer-social a {
-    color: #fff;
+  color: #fff;
 }
 
-a.city-link {
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    font-size: 0.85rem;
-    color: #457B9D;
-    transition: 0.4s;
+a.link {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+  color: #457b9d;
+  transition: 0.2s;
 }
 
-.row-title h3 {
-    text-align: center;
+a.link:hover {
+    color: #e63946;
+    transition: 0.2s;
+}
+
+.link::after {
+    content: ">";
+    padding-left: 10px;
 }
 
 h3 span {
-    color: #E63946;
+  color: #e63946;
+}
+
+.title-white {
+    color: #fff;
 }
