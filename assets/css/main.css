@@ -7,9 +7,23 @@
   background-color: #ededed;
 }
 
+.bg-pink {
+  background-color: #FEF3F4;
+}
+
 .bg-blue {
-    background: #A8DADC;
-  }
+    background: #F6FAFC;
+}
+
+.bg-slanted-pink {
+  background: rgb(255,255,255);
+background: linear-gradient(6deg, rgba(255,255,255,1) 50%, rgba(254, 243, 244,1) 50%);
+}
+
+.bg-slanted-blue {
+  background: rgb(255,255,255);
+background: linear-gradient(348deg, rgba(255,255,255,1) 50%, rgba(246, 250, 252,1) 50%);
+}
 
 .bg-img {
     background-image: url(https://picsum.photos/id/1015/1200/800);
@@ -42,7 +56,7 @@ footer {
 }
 
 .img-link:hover {
-  transform: scale(1.04);
+  transform: scale(1.02);
   transition: 0.4s;
 }
 
@@ -66,8 +80,7 @@ footer {
     }
 }
 
-.image-city img {
+.main-image img {
     width: 100%;
-    margin-top: -90px;
     margin-bottom: 16px;
 }

@@ -4,23 +4,127 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anywhere but here</title>
+    <title>Contact | Anywhere but here</title>
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <script src="./assets/js/script.js" defer></script>
   </head>
 
   <body>
-    <header>
+    <header class="bg-blue">
       <nav class="navigation container">
-        <div class="nav-logo"><a href="./index.html">Anywhere but here</a></div>
+        <div class="nav-logo">
+          <a href="./index.html">Anywhere but here //</a>
+        </div>
         <div class="nav-menu">
           <ul>
             <li><a class="menu-item" href="./index.html">home</a></li>
-            <li><a class="menu-item" href="./plants.html">plants</a></li>
-            <li><a class="menu-item" href="./about.html">about</a></li>
+            <li><a class="menu-item" href="./city.html">inspire me</a></li>
             <li><a class="menu-item" href="./contact.html">contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <main>
+      <section class="bg-slanted-blue">
+        <div class="container row row-2col">
+          <div class="info-tile">
+            <h2>Let's chat</h2>
+            <div class="contact-form">
+              <form action="mailto:a.foleypaama@gmail.com" method="post" enctype="multipart/form-data" name="emailform">
+                <label for="firstname">Full Name</label><br />
+                <input
+                  class="contact-half"
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="First name"
+                />
+                <input
+                  class="contact-half"
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Last name"
+                /><br />
+                <label for="email">Email Address</label>
+                <input
+                  class="contact-full"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                />
+                <label for="message">Message</label>
+                <textarea
+                  class="contact-full"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="7"
+                  placeholder="Write your message for the team here"
+                ></textarea>
+                <input class="btn btn-primary" type="submit" value="Submit" />
+              </form>
+            </div>
+            <h3>Where you'll find us</h3>
+            <p>123 Adventure Road<br/>
+              Oceanview<br />
+              Somewhere in the world 0123
+            </p>
+          </div>
+          <div class="tile-image">
+            <img
+              src="./assets/images/undraw_begin_chat_re_v0lw (1).svg"
+              alt="the anywhere but here team"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-nav">
+          <nav class="navigation">
+            <div class="nav-logo">
+              <a href="./index.html">Anywhere but here //</a>
+            </div>
+            <div class="nav-menu">
+              <ul>
+                <li><a class="menu-item" href="./index.html">home</a></li>
+                <li><a class="menu-item" href="./city.html">inspire me</a></li>
+                <li><a class="menu-item" href="./contact.html">contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="footer-social">
+          <p class="footer-copyright">
+            © 2021 Anywhere but here // Made by Anahera
+          </p>
+          <nav>
+            <ul>
+              <li>
+                <a class="menu-social" href="#"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a class="menu-social" href="#"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a class="menu-social" href="#"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

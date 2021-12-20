@@ -63,10 +63,6 @@ nav li {
   width: 50%;
 }
 
-.row-title {
-    text-align: center;
-}
-
 .title {
     max-width: 800px;
     margin-left: auto;
@@ -131,6 +127,7 @@ nav li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .spacer {

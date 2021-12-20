@@ -18,6 +18,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  font-weight: 400;;
   margin-bottom: 10px;
 }
 
@@ -114,8 +115,4 @@ a.link:hover {
 
 h3 span {
   color: #e63946;
-}
-
-.title-white {
-    color: #fff;
 }
